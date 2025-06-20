@@ -19,3 +19,8 @@ galleryList.insertAdjacentHTML("beforeend", markup(galleryItems));
 
 
 console.log(galleryItems);
+// ініціалізація бібліотеки Lightbox:
+const lightbox = new SimpleLightbox('.gallery a', {
+    captionsData: 'alt',
+    captionsDelay: 250,
+});
